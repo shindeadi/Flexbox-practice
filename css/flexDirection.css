@@ -4,4 +4,20 @@ body {
 
 .flex-container {
     display: flex;
+    /* flex-direction is row by default; */
+}
+
+.row-reverse
+{
+    flex-direction: row-reverse;
+}
+
+.column
+{
+    flex-direction: column;
+}
+
+.column-reverse
+{
+    flex-direction: column-reverse;
 }
