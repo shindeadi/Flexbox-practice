@@ -5,3 +5,48 @@ body {
 .flex-container {
     flex-direction: row;
 }
+
+.alignFromStart
+{
+    justify-content: flex-start;
+}
+
+.alignFromEnd
+{
+    justify-content: flex-end;
+}
+
+.rowReverseDirection
+{
+    flex-direction: row-reverse;
+}
+
+.center
+{
+    justify-content:center;
+}
+
+.column
+{
+    flex-direction: column;
+}
+
+.extraHeight
+{
+    height: 800px;
+}
+
+.space-around
+{
+    justify-content: space-around;
+}
+
+.space-between
+{
+    justify-content: space-between;
+}
+
+.space-evenly
+{
+    justify-content: space-evenly;
+}
