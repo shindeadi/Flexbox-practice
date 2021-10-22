@@ -3,8 +3,39 @@ body {
 }
 
 .flex-container {
-    height: 240px;
+    height: 540px;
+    width: 500px;
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+
+.start
+{
+    align-content:flex-start;
+}
+
+.end
+{
+    align-content:flex-end;
+}
+
+.center
+{
+    align-content:center;
+}
+
+.spaceAround
+{
+    align-content:space-around;
+}
+
+.justifyContentSpaceAround
+{
+    justify-content: space-around;
+}
+
+.spaceBetween
+{
+    align-content: space-between;
 }
