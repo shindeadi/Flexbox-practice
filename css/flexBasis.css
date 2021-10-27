@@ -6,3 +6,12 @@ body {
     flex-direction: row;
     justify-content: flex-start;
 }
+
+.sample1 div:nth-child(2)
+{
+    flex-basis: 200px;
+}
+
+.sample2 div:nth-child(2) {
+    flex-basis: 40%;
+}
